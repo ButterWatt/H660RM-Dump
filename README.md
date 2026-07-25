@@ -1,3 +1,9 @@
+# Overview
+MTD dump of Dasan H660RM GPON ONT
+>[!NOTE]
+>You can find the dump within [Releases Tab](https://github.com/ButterWatt/H660RM-Dump/releases), unfortunately I couldn't get older version that contains CVE vulnerabilities. 
+
+
 # Partition Table
     PARTITION |  ADDRESS |   SIZE   |  DEFINATION     |                                            PARTITION INFO
 
@@ -35,6 +41,6 @@
     
       mtd13     000a0000   00020000   "reservearea"     N/A
     
-    P: PROPERTY | D: DICTIONARY SIZE (byte) | U: UNCOMPRESSED (byte) | S: SIZE (byte) | B: BLOCKSIZE (byte) | I: INODE
+    P: PROPERTIES | D: DICTIONARY SIZE (byte) | U: UNCOMPRESSED (byte) | S: SIZE (byte) | B: BLOCKSIZE (byte) | I: INODE
     
     H: HEXDECIMAL | A: IMAGE ID | T: TIMESTAMP | C: CHECKSUM | LE: LITTLE ENDIAN | BE: BIG ENDIAN
