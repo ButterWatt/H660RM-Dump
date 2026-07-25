@@ -1,7 +1,10 @@
 # Overview
 MTD dump of Dasan H660RM GPON ONT
 >[!NOTE]
->You can find the dump within [Releases Tab](https://github.com/ButterWatt/H660RM-Dump/releases), unfortunately I couldn't get older version that contains CVE vulnerabilities. 
+>You can find the dump within [Releases Tab](https://github.com/ButterWatt/H660RM-Dump/releases), unfortunately I couldn't get older version that contains CVE vulnerabilities.
+
+# License
+This repository is licensed under GNU General Public License version 3 (GNU GPLv3), please take a look at [GNU Website](https://www.gnu.org/licenses/gpl-3.0.html) or this [repo's license](https://github.com/ButterWatt/H660RM-Dump/blob/main/LICENSE)
 
 
 # Partition Table
