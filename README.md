@@ -68,10 +68,12 @@ This repository is licensed under GNU General Public License version 3 (GNU GPLv
 # Device Information
 Model: `H660RM`
 
-Storage: `SPI NAND 128MB`
+Storage: `Macronix MXIC MX35LF1E4AB-Z4I SPI NAND 128MB 1Gbit`
 
-Memory: `128MB, DDR3 1066`
+Memory: `Winbond W631GG6KB-12 128MB DDR3 64M*16-bit 1Gbit`
 
 SoC: `EcoNet EN751221`
 
-WiFi: `Mediatek MT7615`
+WiFi: `Mediatek MT7615DN`
+
+Line Interface: `Microchip LE9642PQC`
