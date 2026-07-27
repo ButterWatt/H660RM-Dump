@@ -1,16 +1,16 @@
 # Overview
 MTD dump of Dasan H660RM GPON ONT
 >[!NOTE]
->You can find the dump within [Releases Tab](https://github.com/ButterWatt/H660RM-Dump/releases), unfortunately I couldn't get older version that contains CVE vulnerabilities.
+>You can find the dump within [Releases Tab](https://github.com/ButterWatt/H660RM-Dump/releases), unfortunately I couldn't get older version that contains CVE vulnerabilities (version 1.03-0022).
 >
->Also MTD4 is `tclinux` version 1.03-0032, MTD7 is `tclinux` version 1.07-0019
+>Also MTD4 is `tclinux` version 1.03-0032, MTD7 is `tclinux` version 1.07-0019. Maybe U-boot will try to boot newer firmware, *I guess*
 
 # License
-This repository is licensed under GNU General Public License version 3 (GNU GPLv3), please take a look at [GNU Website](https://www.gnu.org/licenses/gpl-3.0.html) or this [repo's license](https://github.com/ButterWatt/H660RM-Dump/blob/main/LICENSE)
+This repository is licensed under GNU General Public License version 3 (GNU GPLv3), take a look at [GNU Website](https://www.gnu.org/licenses/gpl-3.0.html) or this [repo's license](https://github.com/ButterWatt/H660RM-Dump/blob/main/LICENSE). *I don't think that you will spend time for a license that longer than your tax invoice*
 
 
 # Partition Table
-    PARTITION |  ADDRESS |   SIZE   |  DEFINATION     |                                            PARTITION INFO
+    PARTITION |  ADDRESS |   SIZE   |  DEFINITION     |                                            PARTITION INFO
 
       mtd0      00040000   00020000    bootloader       LZMA, P: 0x5D, D: 8388608, U: 199536, H: 0x10000
 
@@ -80,5 +80,6 @@ Line Interface: `Microchip LE9642PQC`
 
 GPON: `HiSense LTY9775M-CHG2`
 
+*Special Name*: `Dasucks`
 # Checksum
 H660RM Dump version 1.7: `sha256:07acc61526579f51c1dcdd8818658c5e652f56f5c2bd7fdc5cc143c4adbe9d70`
