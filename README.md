@@ -2,6 +2,7 @@
 MTD dump of Dasan H660RM GPON ONT
 >[!NOTE]
 >You can find the dump within [Releases Tab](https://github.com/ButterWatt/H660RM-Dump/releases), unfortunately I couldn't get older version that contains CVE vulnerabilities.
+>
 >Also MTD4 is `tclinux` version 1.03-0032, MTD7 is `tclinux` version 1.07-0019
 
 # License
@@ -64,3 +65,13 @@ This repository is licensed under GNU General Public License version 3 (GNU GPLv
       0x056a0000           0x05ba0000         user_rootfs
       0x07500000           0x07540000         wlan_cal
       0x07540000           0x075e0000         reservearea
+# Device Information
+Model: `H660RM`
+
+Storage: `SPI NAND 128MB`
+
+Memory: `128MB, DDR3 1066`
+
+SoC: `EcoNet EN751221`
+
+WiFi: `Mediatek MT7615`
