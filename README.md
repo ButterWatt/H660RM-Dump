@@ -77,3 +77,8 @@ SoC: `EcoNet EN751221`
 WiFi: `Mediatek MT7615DN`
 
 Line Interface: `Microchip LE9642PQC`
+
+GPON: `HiSense LTY9775M-CHG2`
+
+# Checksum
+H660RM Dump version 1.7: `sha256:07acc61526579f51c1dcdd8818658c5e652f56f5c2bd7fdc5cc143c4adbe9d70`
