@@ -68,7 +68,7 @@ This repository is licensed under GNU General Public License version 3 (GNU GPLv
 # Device Information
 Model: `H660RM`
 
-Storage: `Macronix MXIC MX35LF1E4AB-Z4I SPI NAND 128MB 1Gbit`
+Storage: `Macronix MXIC MX35LF1GE4AB-Z4I SPI NAND 128MB 1Gbit`
 
 Memory: `Winbond W631GG6KB-12 128MB DDR3 64M*16-bit 1Gbit`
 
