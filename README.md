@@ -66,17 +66,17 @@ This repository is licensed under GNU General Public License version 3 (GNU GPLv
       0x07500000           0x07540000         wlan_cal
       0x07540000           0x075e0000         reservearea
 # Device Information
-Model: `H660RM`
+Device Model: `H660RM`
 
-Storage: `Macronix MXIC MX35LF1GE4AB-Z4I SPI NAND 128MB 1Gbit`
+Storage Chip: `Macronix MXIC MX35LF1GE4AB-Z4I SPI NAND 128MB 1Gbit`
 
-Memory: `Winbond W631GG6KB-12 128MB DDR3 64M*16-bit 1Gbit`
+Memory Chip: `Winbond W631GG6KB-12 128MB DDR3 64M*16-bit 1Gbit`
 
 SoC: `EcoNet EN751221`
 
 WiFi: `Mediatek MT7615DN`
 
-Line Interface: `Microchip LE9642PQC`
+Landline Chip: `Microchip LE9642PQC`
 
 GPON: `HiSense LTY9775M-CHG2`
 
