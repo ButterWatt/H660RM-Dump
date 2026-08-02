@@ -80,6 +80,44 @@ Line Interface: `Microchip LE9642PQC`
 
 GPON: `HiSense LTY9775M-CHG2`
 
+Default telnet/UART credentials: `admin:vertex25ektks123`
+
 *Special Name*: `Dasucks`
+# Device's U-boot available commands
+    ?                                   Print out help messages.
+    help                                Print out help messages.
+    go                                  Booting the linux kernel.
+    decomp                              Decompress kernel image to ram.
+    memrl <addr>                        Read a word from addr.
+    memwl <addr> <value>                Write a word to addr.
+    dump <addr> <len>                   Dump memory content.
+    jump <addr>                         Jump to addr.
+    flash <dst> <src> <len> <oob>       Write to flash from src to dst(oob: write nand oob if 1).
+    imginfo                             Show images info.
+    bootcfginfo                         Show Bootconfig info.
+    modelname <<Model Name>             Set Model Name.
+    swcompatibility <STRING>            Set S/W Compatibility.
+    partnumber <STRING>                 Set Device Part Number.
+    SN <SN>                             Set SN([1-17]length)
+    onutype <value>                     Set ONU type
+    statevalue <value>                  Set New State Value.
+    ethaddr <value>                     Set New Eth Address.
+    flashrd <offset> <length>           Read NAND data.
+    flashersec <offset> <length         Erase flash sectors containing given region.
+    bdstore <flash dst> <bin src>       Do backdoor config store
+    bdshow                              Show backdoor config
+    bdswitch[1|0]                       Enable or disable backdoor function
+    ddrcalswitch[1|0]                   Enable or disable ddr calibration funciton
+    drambistswitch[0|1|2]               disable or enable, and quick or normal test
+    xmdm <addr> <len>                   Xmodem receive to addr.
+    miir <phyaddr> <reg>                Read ethernet phy reg.
+    miiw <phyaddr> <reg> <value>        Write ethernet phy reg.
+    cpufreq <freq num> / <m> <n>        Set CPU Freq <156~450>(freq has to be multiple of 6)
+    ipaddr <ip addr>                    Change modem's IP.
+    httpd                               Start Web Server
+    ddrdrv <..>                         Change DDR driving length
+    mtd                                 Print NAND partition start/end addresses
+>[!IMPORTANT]
+> Do not touch any critical commands like `cpufreq`, `flashersec` or `flash` if you are NOT CERTAIN what you're about to do. (Make sure you have a programmer to reflash if something goes wrong while using critical commands)
 # Checksum
 H660RM Dump version 1.7: `sha256:07acc61526579f51c1dcdd8818658c5e652f56f5c2bd7fdc5cc143c4adbe9d70`
