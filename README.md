@@ -10,7 +10,7 @@ This repository is licensed under GNU General Public License version 3 (GNU GPLv
 
 
 # Partition Table
-    PARTITION |  ADDRESS |   SIZE   |  DEFINITION     |                                            PARTITION INFO
+    PARTITION |  SIZE    | ERASESIZE | DEFINITION     |                                            PARTITION INFO
 
       mtd0      00040000   00020000    bootloader       LZMA, P: 0x5D, D: 8388608, U: 199536, H: 0x10000
 
