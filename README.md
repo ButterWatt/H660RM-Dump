@@ -7,7 +7,8 @@ MTD dump of Dasan H660RM GPON ONT
 
 # License
 This repository is licensed under GNU General Public License version 3 (GNU GPLv3), take a look at [GNU Website](https://www.gnu.org/licenses/gpl-3.0.html) or this [repo's license](https://github.com/ButterWatt/H660RM-Dump/blob/main/LICENSE). *I don't think that you will spend time for a license that longer than your tax invoice*
-
+>[!Warning]
+>This repository is created for **EDUCATION PURPOSES** only. Either reading this `README` file or not, I have **NO RESPONIBILITY** for any action and damage you made. *Think wisely before you do anything stupid enough to summon hell beneath your basement*
 
 # Partition Table
     PARTITION |  SIZE    | ERASESIZE | DEFINITION     |                                            PARTITION INFO
